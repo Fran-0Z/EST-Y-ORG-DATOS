@@ -1,6 +1,6 @@
 # EST-Y-ORG-DATOS
 
-![Estructura y Organización de Datos](imagenes/estructura-datos.png)
+![Estructura y Organización de Datos](datos.jpg)
 
 # 1 Estructura y Organización de Datos
 
