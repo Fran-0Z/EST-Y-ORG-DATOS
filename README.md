@@ -1,5 +1,9 @@
 # EST-Y-ORG-DATOS
+
+![Estructura y Organización de Datos](imagenes/estructura-datos.png)
+
 # 1 Estructura y Organización de Datos
+
 __Repositorio__ de la materia de Estructura y Organización de Datos, Semestre 2026B
 
 ## Competencias a desarrollar
@@ -7,6 +11,7 @@ __Repositorio__ de la materia de Estructura y Organización de Datos, Semestre 2
 Identifica, selecciona y aplica eficientemente tipos de datos abstractos, métodos de ordenamiento y búsqueda para la optimización del rendimiento de soluciones de problemas del mundo real.
 
 ## Contenido
+
 **Unidad 1:** Fundamentos de estructura de datos
 
 **Unidad 2:** Estructuras lineales
@@ -14,4 +19,3 @@ Identifica, selecciona y aplica eficientemente tipos de datos abstractos, métod
 **Unidad 3:** Estructuras no lineales
 
 **Unidad 4:** Métodos de ordenamiento y búsqueda
-
