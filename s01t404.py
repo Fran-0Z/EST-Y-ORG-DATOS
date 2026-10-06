@@ -6,11 +6,11 @@ students_list_02 = ['piglet', 'fran', 'mowgli', 'kiyo']
 def check_student(input_student, students_list):
     for student in students_list:
         if student == input_student:
-            print("✅Estudiante encontrado")
+            print("Estudiante encontrado")
             return student
             
     # El caso "no encontrado" va fuera del bucle for
-    print("❌Estudiante no encontrado")
+    print("Estudiante no encontrado")
     return None
 
 # Probando el algoritmo 
