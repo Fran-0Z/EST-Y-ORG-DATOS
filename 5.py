@@ -1,0 +1,20 @@
+from array import array as arr
+from s02t0101_1d import print_array
+
+# Le puse el 2 al inicio en lugar del 5 porque así salía en tu foto 3
+my_array = arr('i', [2, 10, 15, 20])
+
+print_array(my_array)
+print("numero no encontardo")
+
+print("---ANTES DE LA INSERCIO")
+print_array(my_array)
+
+# Insercion del 90 en la posición 1
+my_array.insert(1, 90)
+
+print("--- simulaar un apped con insert ---")
+# Aquí corregimos tu insert raro. Se pone la longitud del arreglo primero para que se vaya al final.
+my_array.insert(len(my_array), 9000)
+
+print_array(my_array)
