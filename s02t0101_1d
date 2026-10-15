@@ -11,4 +11,3 @@ if __name__ == '__main__':
     for i in range(len(my_array)):
         if my_array[i] % 2 == 0:
             print(f"Elemento num {i+1}: {my_array[i]}")
-      
