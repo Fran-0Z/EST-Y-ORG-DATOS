@@ -1,13 +1,20 @@
-import array as arr
+from array import array as arr
+from s02t0101_1d import print_array
 
-def print_array(arreglo):
-    print(list(arreglo))
+# Le puse el 2 al inicio en lugar del 5 porque así salía en tu foto 3
+my_array = arr('i', [2, 10, 15, 20])
 
-my_array = arr.array('i', [10, 22, 300, 3, 7, 40, 55, 654, 22, 100, 200, 300, 400, 500])
+print_array(my_array)
+print("numero no encontardo")
 
-# Ocultamos tu for aquí para que solo corra si ejecutas este archivo directamente
-if __name__ == '__main__':
-    #Iteraccion de indices
-    for i in range(len(my_array)):
-        if my_array[i] % 2 == 0:
-            print(f"Elemento num {i+1}: {my_array[i]}")
+print("---ANTES DE LA INSERCIO")
+print_array(my_array)
+
+# Insercion del 90 en la posición 1
+my_array.insert(1, 90)
+
+print("--- simulaar un apped con insert ---")
+# Aquí corregimos tu insert raro. Se pone la longitud del arreglo primero para que se vaya al final.
+my_array.insert(len(my_array), 9000)
+
+print_array(my_array)
