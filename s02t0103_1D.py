@@ -1,17 +1,13 @@
-from array import array as arr
-from s02t0101_1d import print_array
+import array as arr
 
-# Crear el array de enteros
-my_array = arr('i', [2, 10, 15, 20]) 
+def print_array(arreglo):
+    print(list(arreglo))
 
-print("--- ANTES DE LA INSERCIÓN ---")
-print_array(my_array)
+my_array = arr.array('i', [10, 22, 300, 3, 7, 40, 55, 654, 22, 100, 200, 300, 400, 500])
 
-# Inserción en el índice 1
-my_array.insert(1, 90)
-
-print("--- SIMULAR UN APPEND CON INSERT ---")
-# Simular un append insertando al final usando len()
-my_array.insert(len(my_array), 9000)
-
-print_array(my_array)
+# Ocultamos tu for aquí para que solo corra si ejecutas este archivo directamente
+if __name__ == '__main__':
+    #Iteraccion de indices
+    for i in range(len(my_array)):
+        if my_array[i] % 2 == 0:
+            print(f"Elemento num {i+1}: {my_array[i]}")
